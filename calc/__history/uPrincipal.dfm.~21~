@@ -1,0 +1,109 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  Caption = 'Calculadora'
+  ClientHeight = 343
+  ClientWidth = 191
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  OnClick = FormClick
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 40
+    Width = 46
+    Height = 13
+    Caption = 'N'#250'mero 1'
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 86
+    Width = 46
+    Height = 13
+    Caption = 'N'#250'mero 2'
+  end
+  object TxtResult: TLabel
+    Left = 32
+    Top = 296
+    Width = 59
+    Height = 13
+    Caption = 'RESULTADO'
+    Visible = False
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 324
+    Width = 191
+    Height = 19
+    Panels = <>
+    ExplicitLeft = 248
+    ExplicitTop = 216
+    ExplicitWidth = 0
+  end
+  object edtN1: TEdit
+    Left = 24
+    Top = 59
+    Width = 121
+    Height = 21
+    NumbersOnly = True
+    TabOrder = 1
+  end
+  object EdtN2: TEdit
+    Left = 24
+    Top = 105
+    Width = 121
+    Height = 21
+    NumbersOnly = True
+    TabOrder = 2
+  end
+  object BtnSomar: TButton
+    Left = 24
+    Top = 152
+    Width = 121
+    Height = 25
+    Caption = 'Somar'
+    TabOrder = 3
+    OnClick = BtnSomarClick
+  end
+  object BtnSubtrair: TButton
+    Left = 24
+    Top = 183
+    Width = 121
+    Height = 25
+    Caption = 'Subtrair'
+    TabOrder = 4
+    OnClick = BtnSubtrairClick
+  end
+  object BtnMultiplicar: TButton
+    Left = 24
+    Top = 214
+    Width = 121
+    Height = 25
+    Caption = 'Multiplicar'
+    TabOrder = 5
+    OnClick = BtnMultiplicarClick
+  end
+  object BtnDividir: TButton
+    Left = 24
+    Top = 245
+    Width = 121
+    Height = 25
+    Caption = 'Dividir'
+    TabOrder = 6
+    OnClick = BtnDividirClick
+  end
+  object MainMenu1: TMainMenu
+    Left = 8
+    object Calculadora1: TMenuItem
+      Caption = 'Calculadora'
+    end
+  end
+end

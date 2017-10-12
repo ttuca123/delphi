@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/10 13:09:51.000.151,=C:\Users\Tuca\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/10 13:11:00.000.909,D:\projetos-delphi\calc\uPrincipal.pas=C:\Users\Tuca\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/10 13:11:00.000.909,D:\projetos-delphi\calc\uPrincipal.dfm=C:\Users\Tuca\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017/10/10 13:11:06.000.667,D:\projetos-delphi\calc\calculadora.dproj=C:\Users\Tuca\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/10/10 18:35:36.153,=D:\projetos-delphi\calc\Unit1.pas</Transaction>
+    <Transaction>2017/10/10 18:36:11.247,D:\projetos-delphi\calc\uSobre.pas=D:\projetos-delphi\calc\Unit1.pas</Transaction>
+    <Transaction>2017/10/10 18:36:11.247,D:\projetos-delphi\calc\uSobre.dfm=D:\projetos-delphi\calc\Unit1.dfm</Transaction>
+    <Transaction>2017/10/10 19:20:42.562,=D:\projetos-delphi\calc\Unit1.pas</Transaction>
+    <Transaction>2017/10/10 19:20:53.994,D:\projetos-delphi\calc\uLogin.dfm=D:\projetos-delphi\calc\Unit1.dfm</Transaction>
+    <Transaction>2017/10/10 19:20:53.994,D:\projetos-delphi\calc\uLogin.pas=D:\projetos-delphi\calc\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
